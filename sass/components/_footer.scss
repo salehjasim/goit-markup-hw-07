@@ -4,9 +4,11 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .footer-container {
   display: flex;
 }
+
 .footer-logo {
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -37,9 +39,11 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.address-list  {
+
+.address-list {
   padding-top: 20px;
 }
+
 .address-list-item {
   margin-top: 9px;
 
@@ -76,11 +80,12 @@
   display: flex;
   flex-direction: column;
 }
-.social-link-list {
+
+.footer-social-list {
   display: flex;
 }
 
-.social-footer {
+.social-list__item {
   margin-right: 10px;
   display: flex;
   align-items: center;
@@ -97,7 +102,7 @@
   }
 }
 
-.footer-social__links {
+.social-list__icon {
   stroke: none;
   fill: #fff;
   display: flex;
@@ -112,13 +117,15 @@
     background: var(--blue);
   }
 }
-.social-footer {
+
+.social-list__item {
   stroke: none;
   fill: #FFFFFF;
   height: 44px;
   width: 44px;
 }
-.join-us {
+
+.footer-social__title {
   margin: 0;
   margin-bottom: 20px;
   color: #ffffff;
@@ -130,11 +137,13 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .subcribe {
   margin-left: 93px;
   padding-top: 15px;
   padding-bottom: 100px;
 }
+
 .subcribe-heading {
   margin: 0;
   margin-bottom: 20px;
@@ -147,6 +156,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .subcribe-input {
   box-sizing: border-box;
   width: 358px;
@@ -158,6 +168,7 @@
   padding: 15px;
   background-color: var(--dgray);
 }
+
 .subcribe-submit {
   position: relative;
   background: #2196F3;
@@ -176,9 +187,11 @@
   padding: 10px 62px 10px 28px;
   cursor: pointer;
 }
+
 .subcribe-submit:hover {
   opacity: 0.8;
 }
+
 .icon-send {
   position: absolute;
   right: 28px;

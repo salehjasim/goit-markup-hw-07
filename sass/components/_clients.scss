@@ -1,11 +1,13 @@
 .clients {
   padding-bottom: 94px;
 }
+
 .clients-list {
   display: flex;
   justify-content: space-between;
 }
-.client-list-companies {
+
+.clients-list__companies{
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   stroke: none;
@@ -15,7 +17,7 @@
 
   &:hover,
   &:focus {
-    transition: fill  cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
     border: 1px solid var(--blue);
     border-radius: 4px;
     fill: var(--blue);
